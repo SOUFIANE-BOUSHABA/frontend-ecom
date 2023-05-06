@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="minidetails.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body onload="fadeIn()">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse logo" id="navbarExample01">
+               <img src="./images/image/logo.jpg" alt="">
+              </div>
+            <div class="collapse navbar-collapse list" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <div class="icons">
+                    <i class="bi bi-search"></i>
+                    <i class="bi bi-chat-right-dots"></i>
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-cart"></i>
+                    <i class="bi bi-person"></i>
+               </div>
+            </div>
+          </div>
+        </nav>
+        
+    </header>
+    <section>
+        <div
+          class="p-5 text-center bg-image"
+          style="
+            background-image: url(images/image/Capture\ d’écran\ 2023-02-26\ 210236.jpg);
+            height: 700px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-top: 80px;">
+            <div class="content_home">
+                <div class="slideshow-container">
+                    <div class="back"><i class="fa-solid fa-chevron-left" onclick="changeSlide(-1)"></i> </div>
+                    <div class="titre1" id="fade_left">
+                        <p class="mintitre" >#1 the best way you use</p>
+                        <h2>Enjoy The Latest  <br> Technology</h2>
+                        <div class="btn1">
+                            <a href="#" class="a1">Buy Now </a>
+                            <a href="#" class="a2">Subscribe </a>
+                        </div>
+                    </div>
+                    <div class="imgeslide1" id="fade">
+                            
+                           <div class="slide"><img  src="./images/image/089809d7-8c24-4027-a9bb-684acb20ea08-removebg-preview.png" alt=""></div> 
+                           <div class="slide"><img  src="./images/image/2194930-3d-shopping-boutique-en-ligne-a-vendre-mobile-e-commerce-3d-rose-pastel-fond-boutique-en-ligne-sur-application-mobile-24-heures-shopping-panier-carte-de-credit-minimal-shopping-boutique-en-lig.png" alt="" style="height: 500px;"></div> 
+                           <div class="slide"><img  src="./images/image/General_Banner_Online_Shopping_Blog_1_APAC_2020_09_03-removebg-preview.png" alt=""style="height: 500px;width:auto" ></div> 
+                        </div>
+                    <div class="next"><i class="fa-solid fa-chevron-right" onclick="changeSlide(1)"></i> </div>
+                </div>
+
+            </div>
+        </div>
+    </section>  
+      <section>
+         <div class="point-fort">
+            <div class="d-inline-block fort "> <img src="./images/image/money-back.png" alt=""><h3>Money Back Guarantee</h3><p>Within 10 days.</p></div>
+            <div class="d-inline-block fort "> <img src="./images/image/online-support.png" alt=""><h3>Pro Quality Support</h3><p>24/7 Live support.</p></div>
+            <div class="d-inline-block fort "> <img src="./images/image/fast-charge.png" alt=""><h3>Fast & Secure Delivery</h3><p>Tell about your <br> service.</p></div>
+            <div class="d-inline-block fort "> <img src="./images/image/return.png" alt=""><h3>24 Hour Return Policy</h3><p>Within 24 Hour.</p></div>
+         </div>
+      </section>
+
+      <section>
+          <div class="slider-container">
+          <div class="entet">
+              <h3>Our Explore Products</h3>
+              <div class="movproduit">
+                <i class="fa-solid fa-chevron-left  prev" ></i>
+                <i class="fa-solid fa-chevron-right  next"></i>
+              </div>
+          </div>
+          <div class="produits  sliderr">
+          <div class="produit square" >
+            
+              <div class="img">
+                  <div class="porpromo">
+                      <div class="porcentage">20%</div>
+                      <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                    </div>
+                    
+                  <div class="img">
+                      <img src="./images/image/product-06-removebg-preview.png" alt="">
+                  </div>
+              </div>
+              <div class="produit-content">
+                  <p>mice logitech</p>
+                  <div class="contnet2">
+                       <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                        <div class="privew"><button style="border: none;" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="./images/icons/preview.png" alt=""></button></div>
+                </div>
+              </div>
+            
+          </div>
+          <div class="modal fade bd-example-modal-lg" tabindex="1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class = "card-wrapper">
+                      
+                          <!-- card left -->
+                          <div class = "product-imgs">
+                            <div class = "img-display">
+                              <div class = "img-showcase" style=" height: 370px;">
+                                <img src = "./images/image/product-06-removebg-preview.png" >
+                              </div>
+                            </div>
+                            <div class = "img-select">
+                              <div class = "img-item">
+                                
+                                  <img src = "./images/image/product-06-removebg-preview.png" alt = "shoe image"onclick="showImg(this.src);"style="width: 70px; height: 80px;">
+                             
+                              </div>
+                              <div class = "img-item">
+                                
+                                  <img src = "./images/image/souri1.png" alt = "shoe image"onclick="showImg(this.src);" style="width: 70px; height: 80px;">
+                                
+                              </div>
+                              <div class = "img-item">
+                               
+                                  <img src = "./images/image/souri2.png" alt = "shoe image"onclick="showImg(this.src);"style="width: 70px; height: 80px;">
+                               
+                              </div>
+                              <div class = "img-item">
+                                  <img src = "./images/image/souri3.png" alt = "shoe image"onclick="showImg(this.src);"style="width: 70px; height: 80px;">
+                               
+                              </div>
+                            </div>
+                          </div>
+                          <!-- card right -->
+                          <div class = "product-content">
+                            <h2 class = "product-title">souris</h2>
+                           
+                  
+                            <div class = "product-price">
+                              <p class = "last-price">Old Price: <span>$30.00</span></p>
+                              <p class = "new-price">New Price: <span>$24.00 (5%)</span></p>
+                            </div>
+                  
+                            <div class = "product-detail">
+                              <h2>about this item: </h2>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
+                             
+                              <ul>
+                                <li>Color: <span>Black</span></li>
+                                <li>Available: <span>in stock</span></li>
+                                <li>Category: <span>souris</span></li>
+                              </ul>
+                            </div>
+                  
+                            <div class = "purchase-info">
+                              
+                              <button href="#" type = "button" class = "btn"  id="addtocart"  data-dismiss="modal" aria-label="Close">
+                                Add to Cart <i class = "fas fa-shopping-cart"></i>
+                              </button>
+                             
+                            </div>
+                            <script>
+                               
+                                document.getElementById('addtocart').addEventListener('click', function () {  
+                                    Swal.fire({
+                                        
+                                        icon: 'success',
+                                        title: 'item aded in successfully',
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    })
+                                })
+                            </script>
+                            
+                      
+                        </div>
+                      </div>
+                </div>
+                <div class="modal-footer" style="margin-top: -150px;">
+               
+                </div>
+              </div>
+            </div>
+          </div>
+          <script>
+            let bigImg =document.querySelector('.img-showcase img');
+            function showImg(pic){
+              bigImg.src=pic;
+            }
+          </script>
+          <div class="produit">
+              <a href="details.html" >
+            <div class="img">
+                <div class="img">
+                    <img src="./images/image/F.png" alt="" style="width: 113px; height: auto;">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </a>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        </div>
+          </div>
+      </section>
+      <section>
+        <div class="entet">
+            <h3>Our Explore Products</h3>
+            <div class="movproduit">
+              <i class="fa-solid fa-chevron-left" ></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="produits">
+        <div class="produit">
+            <div class="img">
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+          <div class="img">
+              <div class="img">
+                  <img src="./images/image/product-06-removebg-preview.png" alt="">
+              </div>
+          </div>
+          <div class="produit-content">
+              <p>mice logitech</p>
+              <div class="contnet2">
+                   <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                    <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+            </div>
+          </div>
+      </div>
+      <div class="produit">
+          <div class="img">
+              <div class="img">
+                  <img src="./images/image/product-06-removebg-preview.png" alt="">
+              </div>
+          </div>
+          <div class="produit-content">
+              <p>mice logitech</p>
+              <div class="contnet2">
+                   <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                    <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+            </div>
+          </div>
+      </div>
+      <div class="produit">
+          <div class="img">
+              <div class="img">
+                  <img src="./images/image/product-06-removebg-preview.png" alt="">
+              </div>
+          </div>
+          <div class="produit-content">
+              <p>mice logitech</p>
+              <div class="contnet2">
+                   <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                    <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+    <section  >
+        <div class="biid">
+            <div > </div>
+            <div class="biding">
+                <div class="imag-bid"> <img src="./images/image/71fKxd1tnwL._AC_SL1500_-removebg-preview.png" alt="" style="width: 400px;"></div>
+                <div class="logo-time">
+                    <div class="logobid"><img src="./images/image/h.png" alt=""></div>
+                    <div class="timerbid "> 
+                        <h2>Bidding product</h2>
+                        <p>Tablet iPad M20 </p>
+                        <div class="time">
+                            <div><h3>08   04  03  04</h3>
+                            <p> D    H   M   S</p></div> 
+                            <a href="#">Check it Now</a>
+                        </div>
+                    
+                    </div>
+             </div>
+            
+        </div> 
+        <div > </div>  
+        </div>   
+    </section>
+    <section>
+        <div class="entet">
+            <h3>Our Explore Products</h3>
+            <div class="movproduit">
+              <i class="fa-solid fa-chevron-left" ></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="produits">
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+          <div class="img">
+              <div class="img">
+                  <img src="./images/image/product-06-removebg-preview.png" alt="">
+              </div>
+          </div>
+          <div class="produit-content">
+              <p>mice logitech</p>
+              <div class="contnet2">
+                   <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                    <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+            </div>
+          </div>
+      </div>
+      <div class="produit">
+          <div class="img">
+              <div class="img">
+                  <img src="./images/image/product-06-removebg-preview.png" alt="">
+              </div>
+          </div>
+          <div class="produit-content">
+              <p>mice logitech</p>
+              <div class="contnet2">
+                   <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                    <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+            </div>
+          </div>
+      </div>
+      <div class="produit">
+          <div class="img">
+              <div class="img">
+                  <img src="./images/image/product-06-removebg-preview.png" alt="">
+              </div>
+          </div>
+          <div class="produit-content">
+              <p>mice logitech</p>
+              <div class="contnet2">
+                   <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                    <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section  >
+        <div class="autre">
+            <div > </div>
+            <div class="autre1">
+               <div class="left">
+                   <h2>Pc Gamer For <br>
+                    Streaming</h2>
+                    <a href="#">consulté -></a>
+               </div>
+               <div class="right">
+                   <img src="./images/image/lianlio11d_msi-optix-g241_set-headset_peripherie_1200-min-removebg-preview.png" alt="" style="width: 200px;">
+               </div>
+            </div>
+            <div > </div>
+            <div class="autre2">
+                <div class="left">
+                    <img src="./images/image/717BlDLd7kL._AC_SX425_-removebg-preview.png" alt="">
+                </div>
+                <div class="right">
+                    <h2>The Best Micro <br>
+                        For The Content</h2>
+                     <a href="#">consulté -></a>
+                </div>
+               
+            </div>
+        <div > </div>  
+        </div>   
+    </section>
+    <section  >
+        <div class="Subscribe">
+            <div > </div>
+            <div class="sub">
+               <div class="left">
+                   <p>#3 don't  forget subscribe</p>
+                   <h2>Get Weekly Update</h2>
+                   <input type="text" placeholder="exemple@gmail.com"> <br>
+                    <a href="#">Subscribe</a>
+               </div>
+               <div class="right">
+                   <img src="./images/image/maxresdefault-removebg-preview.png" alt="" >
+               </div>
+            </div>
+            <div > </div>
+        </div>   
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="first"><img src="./images/image/h.png" alt="" style="width: 300px;"></div>
+            <div class="second">
+                <h2>Campany</h2>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Our Teams</a>
+                <a href="#">Get Started</a>
+            </div>
+            <div class="therd">
+                <h2>Social Media</h2>
+                <div class="data">
+               <div> <img src="./images/icons/facebook.png" alt="" style="width: 20px;"><a href="#">Facebook</a></div>
+               <div><img src="./images/icons/instagram.png" alt="" style="width: 20px;"><a href="#">Instgram</a></div>
+               <div> <img src="./images/icons/twitter.png" alt="" style="width: 20px;"><a href="#">Twitter</a></div>
+               <div> <img src="./images/icons/linkedin.png" alt="" style="width: 20px;"><a href="#">Linkden</a></div>
+                </div>
+            </div>
+            <div class="forth">
+                <h2>Contact</h2>
+                <div class="data">
+                    <div> <img src="./images/icons/location.png" alt="" style="width: 20px;"> <a href="#">Errachidia,Maroc</a></div>
+                    <div> <img src="./images/icons/email.png" alt="" style="width: 20px;"> <a href="#">ma7al4u@gmail.com</a></div>
+                    <div><img src="./images/icons/telephone.png" alt="" style="width: 20px;"> <a href="#">+212 690615486</a></div>
+                 </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div></div>
+            <div class="content">
+                <div class="left"><p>&copy; 2023. ALL Right reserved by SOUFINE & RABIE</p></div>
+                <div class="right">
+                    <p>Accept For  </p>
+                    <img src="./images/icons/paypal.png" alt="" style="width: 30px;"> 
+                    <img src="./images/icons/visa.png" alt="" style="width: 30px;"> 
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+  
+</html>

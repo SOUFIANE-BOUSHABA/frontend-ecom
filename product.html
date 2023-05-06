@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="product.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+    
+</head>
+<body onload="fadeIn()">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse logo" id="navbarExample01">
+               <img src="./images/image/logo.jpg" alt="">
+              </div>
+            <div class="collapse navbar-collapse list" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <div class="icons">
+                    <i class="bi bi-search"></i>
+                    <i class="bi bi-chat-right-dots"></i>
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-cart"></i>
+                    <i class="bi bi-person"></i>
+               </div>
+            </div>
+          </div>
+        </nav>
+        
+    </header>
+    <h5> Home > <span>Products</span></h5>
+
+    <!-- promo -->
+    <section  >
+        <div class="prom">
+            <div > </div>
+            <div class="promo">
+                <div class="imag-prom"> <img src="./images/image/71fKxd1tnwL._AC_SL1500_-removebg-preview.png" alt="" style="width: 300px;"></div>
+                <div class="logo-time">
+                    <div class="logoprom"><img src="./images/image/h.png" alt=""></div>
+                    <div class="timerprom "> 
+                        <p>#2 don't  forget this promo</p>
+                        <h3>Enjoy The Latest <br> MacBook</h3>
+                        <div class="time">
+                            <h2> 50% OFF</h2>
+                            <a href="#">Check it Now</a>
+                        </div>
+                    
+                    </div>
+             </div>
+            
+            </div> 
+          <div > </div>  
+        </div>   
+    </section>
+<!-- end -->
+<!-- outils -->
+<section  >
+    <div class="outils">
+        <div > </div>
+        <div class="outil">
+                <form action="" method="" class="search">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search..."  aria-describedby="button-addon2" style="border: 1px solid rgb(95, 94, 94);">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-addon2"> <i class="bi bi-search"></i></button>
+                    </div>
+                </form>
+                <form action="" method="" class="select">
+                    <label for="">Sort By:</label>
+                    <select class="form-select " aria-label="Default select example" style="border: 1px solid rgb(95, 94, 94); margin-left: -100px;">
+                        <option selected>Default Sorting</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </form>
+                <div class="affiche">
+                   <div class="bid">  <a href="#">bidding product</a></div>
+                   <div class="menu">
+                          <div><i class="fa-solid fa-bars"></i></div>
+                          <div> <i class="fa-solid fa-list-ul"></i></div>
+                   </div> 
+                </div>
+        </div>
+        <div > </div>  
+    </div>   
+</section>
+<section>
+   
+   <div class="content">
+   <div></div>
+   <div class="sidbar">    
+       <div class="categore">
+           <div class="titel">
+               <h4>Shop by Categories</h4>
+              <div> <i class="fa-solid fa-chevron-down"></i></div>
+           </div>
+           <form action="">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Accessories</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Laptop</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Souris</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">clavier</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                
+                <label class="form-check-label" for="flexSwitchCheckDefault">playstatin</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">phone</label>
+              </div>
+              
+           </form>
+       </div>
+       <div class="categore">
+        <div class="titel">
+            <h4>Price </h4>
+           <div> <i class="fa-solid fa-chevron-down"></i></div>
+        </div>
+           <form action="">
+             <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">$00.10  - $100.00</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">$100.00 - $200.00</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">$200.00 - $500.00</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                <label class="form-check-label" for="flexSwitchCheckDefault">$500.00 - $1000.00</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="radio" role="switch" name="chois">
+                
+                <label class="form-check-label" for="flexSwitchCheckDefault">$1000.00 +</label>
+              </div>
+              
+                <div slider id="slider-distance">
+                <div>
+                  <div inverse-left style="width:70%;"></div>
+                  <div inverse-right style="width:70%;"></div>
+                  <div range style="left:0%;right:0%;"></div>
+                  <span thumb style="left:0%;"></span>
+                  <span thumb style="left:100%;"></span>
+                  <div sign style="left:0%;">
+                    <span id="value">0</span>
+                  </div>
+                  <div sign style="left:100%;">
+                    <span id="value">5000</span>
+                  </div>
+                </div>
+               
+                   
+                <input type="range" value="0" max="5000" min="0" step="1" oninput="
+                this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                let value = (this.value/parseInt(this.max))*100
+                var children = this.parentNode.childNodes[1].childNodes;
+                children[1].style.width=value+'%';
+                children[5].style.left=value+'%';
+                children[7].style.left=value+'%';children[11].style.left=value+'%';
+                children[11].childNodes[1].innerHTML=this.value;" />
+              
+                <input type="range" value="5000" max="5000" min="0" step="1" oninput="
+                this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                let value = (this.value/parseInt(this.max))*100
+                var children = this.parentNode.childNodes[1].childNodes;
+                children[3].style.width=(100-value)+'%';
+                children[5].style.right=(100-value)+'%';
+                children[9].style.left=value+'%';children[13].style.left=value+'%';
+                children[13].childNodes[1].innerHTML=this.value;" />
+              </div> <br>
+              <input type="submit" value="ok" style="width: 80px; height: 40px; border: none;margin-bottom: 30px;">
+            </form>
+
+
+
+            <div class="categore">
+              <div class="titel">
+                  <h4>Color</h4>
+                 <div> <i class="fa-solid fa-chevron-down"></i></div>
+              </div>
+              <form action="">
+               <div class="form-check form-switch">
+                   <input class="form-check-input" type="radio" role="switch" name="chois">
+                   <label class="form-check-label" for="flexSwitchCheckDefault">Black</label>
+                 </div>
+                 <div class="form-check form-switch">
+                   <input class="form-check-input" type="radio" role="switch" name="chois">
+                   <label class="form-check-label" for="flexSwitchCheckDefault">Blue</label>
+                 </div>
+                 <div class="form-check form-switch">
+                   <input class="form-check-input" type="radio" role="switch" name="chois">
+                   <label class="form-check-label" for="flexSwitchCheckDefault">Brown</label>
+                 </div>
+                 <div class="form-check form-switch">
+                   <input class="form-check-input" type="radio" role="switch" name="chois">
+                   <label class="form-check-label" for="flexSwitchCheckDefault">Green</label>
+                 </div>
+                 <div class="form-check form-switch">
+                   <input class="form-check-input" type="radio" role="switch" name="chois">
+                   
+                   <label class="form-check-label" for="flexSwitchCheckDefault">Grey</label>
+                 </div>
+                 <div class="form-check form-switch">
+                   <input class="form-check-input" type="radio" role="switch" name="chois">
+                   <label class="form-check-label" for="flexSwitchCheckDefault">Yellow</label>
+                 </div>
+                 <input type="submit" value="ok" style="width: 80px; height: 40px; border: none; margin-bottom: 30px;">
+              </form>
+          </div>
+        
+    </div>
+   </div>
+   <div class="allprod">
+      <div class="produits">
+        <div class="produit">
+            
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt="" id="afficher"></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="produits">
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="produits">
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="produits">
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div class="produit">
+            <div class="img">
+                <div class="porpromo">
+                    <div class="porcentage">20%</div>
+                    <div class="motlat"><div class="motlatlowl"></div><div class="motlatjawj"></div></div> 
+                  </div>
+                <div class="img">
+                    <img src="./images/image/product-06-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="produit-content">
+                <p>mice logitech</p>
+                <div class="contnet2">
+                     <div class="pric"> 20.99$ <span><s> 30$</s></span> </div>
+                      <div class="privew"><img src="./images/icons/preview.png" alt=""></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      
+   </div>
+   
+   <div></div>
+   </div>
+
+</section>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="first"><img src="./images/image/h.png" alt="" style="width: 300px;"></div>
+            <div class="second">
+                <h2>Campany</h2>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Our Teams</a>
+                <a href="#">Get Started</a>
+            </div>
+            <div class="therd">
+                <h2>Social Media</h2>
+                <div class="data">
+               <div> <img src="./images/icons/facebook.png" alt="" style="width: 20px;"><a href="#">Facebook</a></div>
+               <div><img src="./images/icons/instagram.png" alt="" style="width: 20px;"><a href="#">Instgram</a></div>
+               <div> <img src="./images/icons/twitter.png" alt="" style="width: 20px;"><a href="#">Twitter</a></div>
+               <div> <img src="./images/icons/linkedin.png" alt="" style="width: 20px;"><a href="#">Linkden</a></div>
+                </div>
+            </div>
+            <div class="forth">
+                <h2>Contact</h2>
+                <div class="data">
+                    <div> <img src="./images/icons/location.png" alt="" style="width: 20px;"> <a href="#">Errachidia,Maroc</a></div>
+                    <div> <img src="./images/icons/email.png" alt="" style="width: 20px;"> <a href="#">ma7al4u@gmail.com</a></div>
+                    <div><img src="./images/icons/telephone.png" alt="" style="width: 20px;"> <a href="#">+212 690615486</a></div>
+                 </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div></div>
+            <div class="content">
+                <div class="left"><p>&copy; 2023. ALL Right reserved by SOUFINE & RABIE</p></div>
+                <div class="right">
+                    <p>Accept For  </p>
+                    <img src="./images/icons/paypal.png" alt="" style="width: 30px;"> 
+                    <img src="./images/icons/visa.png" alt="" style="width: 30px;"> 
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </footer>
+</body>
+  
+</html>
